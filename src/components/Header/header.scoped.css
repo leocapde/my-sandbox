@@ -1,0 +1,26 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 25px;
+  box-shadow: var(--shadow-black);
+}
+
+.title {
+  margin: 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  padding: 5px 20px;
+  border-left: 1px solid var(--color-link);
+}
+
+.nav-item:last-child {
+  border-right: 1px solid var(--color-link);
+}

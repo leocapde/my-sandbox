@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import App from "./pages/App";
 import Header from "./components/Header/header";
 import Footer from "./components/Footer/footer";
 import Home from "./pages/Home/Home";
+import CodeSandbox from "./pages/CodeSandbox/CodeSandbox";
 
 const router = createBrowserRouter([
   {
@@ -13,8 +13,8 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/app",
-    element: <App />,
+    path: "/codesandbox",
+    element: <CodeSandbox />,
   },
 ]);
 

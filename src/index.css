@@ -1,8 +1,9 @@
 :root {
   --color-bg: #282c34;
   --color-text: #fff;
+  --color-link: #61dafb;
 
-  --shadow-black: 0 0 10px rgba(0, 0, 0, 0.25);
+  --shadow-black: 0 0 10px rgba(0, 0, 0, 0.5);
   --shadow-black-light: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -26,4 +27,26 @@ code {
   flex-direction: column;
   background-color: var(--color-bg);
   color: var(--color-text);
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+main h3 {
+  font-size: 2em;
+  font-style: italic;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-link);
 }

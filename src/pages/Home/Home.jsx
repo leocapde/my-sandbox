@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.svg";
-import "./Home.css";
+import "./Home.scoped.css";
 
 export default function Home() {
   return (
