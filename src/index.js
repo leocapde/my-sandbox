@@ -6,6 +6,7 @@ import Header from "./components/Header/header";
 import Footer from "./components/Footer/footer";
 import Home from "./pages/Home/Home";
 import CodeSandbox from "./pages/CodeSandbox/CodeSandbox";
+import Heart from "./pages/Heart/Heart";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/codesandbox",
     element: <CodeSandbox />,
+  },
+  {
+    path: "/heart",
+    element: <Heart />,
   },
 ]);
 

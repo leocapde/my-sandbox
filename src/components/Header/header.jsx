@@ -11,6 +11,9 @@ export default function Header() {
           <li className="nav-item">
             <a href="/codesandbox">CodeSandbox</a>
           </li>
+          <li className="nav-item">
+            <a href="/heart">Heart</a>
+          </li>
         </ul>
       </nav>
     </header>

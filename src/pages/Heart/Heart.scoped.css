@@ -1,0 +1,151 @@
+#Heart {
+  --color-red: #ec2d73;
+  --color-orange: #eb5324;
+  --color-yellow: #fdc800;
+  --color-green: #47b264;
+  --color-blue: #1470bd;
+  --color-purple: #76469a;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heart {
+  width: 150px;
+  height: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.piece {
+  flex: 1;
+  margin: 0 3px;
+  border-radius: 20px;
+  height: 12px;
+  transform: translateY(-6px);
+  margin-top: 30px;
+}
+
+.piece-1 {
+  background-color: var(--color-red);
+  animation: piece-1 2.7s infinite;
+}
+
+@keyframes piece-1 {
+  0%,
+  10%,
+  90%,
+  100% {
+    height: 12px;
+    transform: translateY(-6px);
+  }
+  45%,
+  55% {
+    height: 30px;
+    transform: translateY(-15px);
+  }
+}
+
+.piece-2 {
+  background-color: var(--color-orange);
+  animation: piece-2 2.7s 0.15s infinite;
+}
+
+@keyframes piece-2 {
+  0%,
+  10%,
+  90%,
+  100% {
+    height: 12px;
+    transform: translateY(-6px);
+  }
+  45%,
+  55% {
+    height: 50px;
+    transform: translateY(-25px);
+  }
+}
+
+.piece-3 {
+  background-color: var(--color-yellow);
+  animation: piece-3 2.7s 0.3s infinite;
+}
+
+@keyframes piece-3 {
+  0%,
+  10%,
+  90%,
+  100% {
+    height: 12px;
+    transform: translateY(-6px);
+  }
+  45%,
+  55% {
+    height: 80px;
+    transform: translateY(-35px);
+  }
+}
+
+.piece-4 {
+  background-color: var(--color-green);
+  animation: piece-4 2.7s 0.45s infinite;
+}
+
+@keyframes piece-4 {
+  0%,
+  10%,
+  90%,
+  100% {
+    height: 12px;
+    transform: translateY(-6px);
+  }
+  45%,
+  55% {
+    height: 95px;
+    transform: translateY(-35px);
+  }
+}
+
+.piece-5 {
+  background-color: var(--color-blue);
+  animation: piece-5 2.7s 0.6s infinite;
+}
+
+@keyframes piece-5 {
+  0%,
+  10%,
+  90%,
+  100% {
+    height: 12px;
+    transform: translateY(-6px);
+  }
+  45%,
+  55% {
+    height: 100px;
+    transform: translateY(-25px);
+  }
+}
+
+.piece-6 {
+  background-color: var(--color-purple);
+  animation: piece-4 2.7s 0.75s infinite;
+}
+
+.piece-7 {
+  background-color: var(--color-red);
+  animation: piece-3 2.7s 0.9s infinite;
+}
+
+.piece-8 {
+  background-color: var(--color-orange);
+  animation: piece-2 2.7s 1.05s infinite;
+}
+
+.piece-9 {
+  background-color: var(--color-yellow);
+  animation: piece-1 2.7s 1.2s infinite;
+}
