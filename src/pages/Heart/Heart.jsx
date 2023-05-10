@@ -2,7 +2,7 @@ import "./Heart.scoped.css";
 
 export default function Heart() {
   return (
-    <main id="Heart" className="container">
+    <main id="Heart">
       <h3 className="title">Heart</h3>
       <div className="heart">
         <div className="piece piece-1" />

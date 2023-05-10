@@ -14,6 +14,9 @@ export default function Header() {
           <li className="nav-item">
             <a href="/heart">Heart</a>
           </li>
+          <li className="nav-item">
+            <a href="/spin">Spin</a>
+          </li>
         </ul>
       </nav>
     </header>

@@ -2,7 +2,7 @@ import "./CodeSandbox.scoped.css";
 
 export default function CodeSandbox() {
   return (
-    <main id="CodeSandbox" className="container">
+    <main id="CodeSandbox">
       <h3 className="title">CodeSandbox logo</h3>
       <div className="cube">
         <div className="face front" />

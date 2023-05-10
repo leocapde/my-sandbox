@@ -3,7 +3,7 @@ import "./Home.scoped.css";
 
 export default function Home() {
   return (
-    <main id="Home" className="container">
+    <main id="Home">
       <h1 className="title">Bienvenue dans My SandBox ✌🏻</h1>
       <div className="description">
         My SandBox est une application qui me permet créer et d'exposer toutes

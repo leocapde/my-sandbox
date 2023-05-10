@@ -7,6 +7,7 @@ import Footer from "./components/Footer/footer";
 import Home from "./pages/Home/Home";
 import CodeSandbox from "./pages/CodeSandbox/CodeSandbox";
 import Heart from "./pages/Heart/Heart";
+import Spin from "./pages/Spin/Spin";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/heart",
     element: <Heart />,
+  },
+  {
+    path: "/spin",
+    element: <Spin />,
   },
 ]);
 

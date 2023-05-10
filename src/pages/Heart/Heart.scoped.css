@@ -7,11 +7,6 @@
   --color-purple: #76469a;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
 .heart {
   width: 150px;
   height: 0;
